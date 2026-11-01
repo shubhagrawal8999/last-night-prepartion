@@ -226,9 +226,10 @@ function renderFlashcards(panel) {
   const card = flashcards[flashIndex];
   const text = flashFlipped ? card.a : card.q;
   panel.innerHTML = `<div class="flashcard ${flashFlipped ? "flipped" : ""}" role="button" tabindex="0" aria-label="Flashcard. Tap to ${flashFlipped ? "show question" : "show answer"}">
-      <div class="flash-label">${flashFlipped ? "Answer" : "Question"} · tap to flip</div><div class="flash-text">${escapeHTML(text)}</div>
+      <div class="flash-label">${flashFlipped ? "Answer" : "Question"} · tap to flip</div><div class="flash-text">${inlineMarkdown(text)}</div>
     </div><div class="flash-controls"><button class="flash-control" data-action="previous" type="button" aria-label="Previous flashcard">← Prev</button><span class="flash-count">${flashIndex + 1} / ${flashcards.length}</span><button class="flash-control" data-action="shuffle" type="button">🔀 Shuffle</button><button class="flash-control" data-action="next" type="button" aria-label="Next flashcard">Next →</button></div>
     ${flashFlipped && flashIndex === flashcards.length - 1 ? `<p class="completion-note">Flashcards done. Your brain has entered the chat. 🧠</p>` : ""}`;
+  typesetMath(panel);
   const cardElement = panel.querySelector(".flashcard");
   cardElement.addEventListener("click", () => { flashFlipped = !flashFlipped; renderFlashcards(panel); });
   cardElement.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); flashFlipped = !flashFlipped; renderFlashcards(panel); } });

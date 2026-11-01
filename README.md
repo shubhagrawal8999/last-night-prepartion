@@ -44,7 +44,9 @@ The home page picks a random entry from `memes/index.json` on each load. Its ten
 
 ## Deploy
 
-Deploy this folder as a static site on GitHub Pages, Netlify, or Vercel. No build command is required; use the repository root as the publish directory. Keep the content and meme JSON files in the deployed folder so the browser can fetch them.
+The repository includes `vercel.json` for a no-build static deployment. Import the GitHub repository into Vercel and keep the project root as the Root Directory. The site files (`index.html`, `app.js`, and `styles.css`) and the `content/` and `memes/` folders are deployed together, so no build command or output-directory change is needed.
+
+The same files can also be deployed to GitHub Pages or Netlify as a static site.
 
 ## Name ideas
 
