@@ -1,0 +1,7 @@
+[
+  { "q": "What does the derivative represent geometrically?", "a": "The slope of the curve at a point (the tangent's gradient)." },
+  { "q": "What is the power rule for x^n?", "a": "Bring down n and reduce the exponent by one: nx^(n-1)." },
+  { "q": "What is the derivative of a constant?", "a": "Zero." },
+  { "q": "What is the product rule?", "a": "(uv)' = u'v + uv'." },
+  { "q": "What do you do with a constant multiplier?", "a": "Keep it out front and differentiate the function: (cf)' = cf'." }
+]

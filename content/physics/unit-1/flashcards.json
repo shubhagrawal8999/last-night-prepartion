@@ -1,0 +1,246 @@
+[
+  {
+    "q": "What is light interference?",
+    "a": "Interference is the optical phenomenon where two or more light waves meet and combine to form a resulting wave with redistributed light intensity."
+  },
+  {
+    "q": "Under what phase condition does constructive interference occur?",
+    "a": "Constructive interference occurs when two waves meet in phase, meaning the crest of one wave coincides with the crest of the other (and trough with trough)."
+  },
+  {
+    "q": "What is the resultant amplitude at a point of constructive interference if two waves have amplitudes $A_1$ and $A_2$?",
+    "a": "The resultant amplitude is equal to the sum of the individual amplitudes: $A = A_1 + A_2$."
+  },
+  {
+    "q": "What are the allowed phase differences $\\phi$ for constructive interference?",
+    "a": "$\\phi = 0, 2\\pi, 4\\pi, 6\\pi, \\dots = 2n\\pi$ (where $n = 0, 1, 2, \\dots$)."
+  },
+  {
+    "q": "What path difference condition produces a bright fringe (maxima) in standard two-wave interference?",
+    "a": "The path difference must be an integral multiple of wavelength: $\\Delta = n\\lambda$ (where $n = 0, 1, 2, \\dots$)."
+  },
+  {
+    "q": "When light waves undergo destructive interference, they meet _____ of phase.",
+    "a": "out"
+  },
+  {
+    "q": "What are the allowable phase differences $\\phi$ for destructive interference?",
+    "a": "$\\phi = \\pi, 3\\pi, 5\\pi, \\dots = (2m+1)\\pi$ (where $m = 0, 1, 2, \\dots$)."
+  },
+  {
+    "q": "What is the general path difference formula $\\Delta$ for destructive interference?",
+    "a": "$\\Delta = (2m+1)\\frac{\\lambda}{2}$ (odd integral multiples of half-wavelength, where $m = 0, 1, 2, \\dots$)."
+  },
+  {
+    "q": "How are reflected interference rays formed when light is incident on a thin transparent film?",
+    "a": "The incident ray undergoes partial reflection at the top surface of the film, while the transmitted portion undergoes reflection at the bottom surface and exits through the top surface to interfere with the first reflected ray."
+  },
+  {
+    "q": "What is the geometrical path difference $\\Delta_{\\text{geom}}$ inside a thin film of thickness $t$ and refractive index $\\mu$ for angle of refraction $r$?",
+    "a": "$\\Delta_{\\text{geom}} = 2\\mu t \\cos r$"
+  },
+  {
+    "q": "Why is an additional path difference of $\\frac{\\lambda}{2}$ introduced during thin-film reflection from an air-to-film boundary?",
+    "a": "According to Stokes' treatment, reflection at the boundary of an optically denser medium causes an automatic phase change of $\\pi$, which corresponds to an additional path difference of $\\frac{\\lambda}{2}$."
+  },
+  {
+    "q": "What is the total optical path difference formula for light reflected from a thin film surrounded by air?",
+    "a": "$\\Delta = 2\\mu t \\cos r + \\frac{\\lambda}{2}$"
+  },
+  {
+    "q": "What is the condition for bright fringes (maxima) in thin-film interference in the reflected light system?",
+    "a": "$2\\mu t \\cos r = (2n\\pm 1)\\frac{\\lambda}{2}$"
+  },
+  {
+    "q": "What is the condition for dark fringes (minima) in thin-film interference in the reflected light system?",
+    "a": "$2\\mu t \\cos r = n\\lambda$"
+  },
+  {
+    "q": "What defines a wedge-shaped thin film?",
+    "a": "A film enclosed between two inclined planar surfaces having zero thickness at one edge and progressively increasing thickness toward the opposite edge."
+  },
+  {
+    "q": "What is the optical path difference formula for a wedge-shaped film of refractive index $\\mu$ and wedge angle $\\alpha$?",
+    "a": "$\\Delta = 2\\mu t \\cos(r + \\alpha)$"
+  },
+  {
+    "q": "What is the condition for maxima in a reflected wedge-shaped film?",
+    "a": "$2\\mu t \\cos(r + \\alpha) = (2n\\pm 1)\\frac{\\lambda}{2}$"
+  },
+  {
+    "q": "What is fringe bandwidth $\\beta$ in thin-film interference?",
+    "a": "Fringe bandwidth $\\beta$ is the distance between two consecutive dark or two consecutive bright interference fringes."
+  },
+  {
+    "q": "What is the general formula for the fringe bandwidth $\\beta$ of a wedge-shaped film?",
+    "a": "$\\beta = \\frac{\\lambda}{2\\mu \\sin\\alpha}$"
+  },
+  {
+    "q": "For an air wedge ($\\mu=1$) with a very small wedge angle $\\alpha$, what simplified expression gives the fringe bandwidth $\\beta$?",
+    "a": "$\\beta = \\frac{\\lambda}{2\\alpha}$ (where $\\alpha$ is expressed in radians)."
+  },
+  {
+    "q": "What is the primary purpose of applying an Anti-Reflecting Coating (ARC) to optical lenses?",
+    "a": "To minimize unwanted reflection losses from lens surfaces and maximize light transmission, thereby improving image quality."
+  },
+  {
+    "q": "In an Anti-Reflecting Coating (ARC), why do both the top and bottom reflected rays undergo a $\\frac{\\lambda}{2}$ phase shift?",
+    "a": "Because the coating's refractive index $\\mu_f$ satisfies $\\mu_a < \\mu_f < \\mu_g$; thus, both reflections occur at an interface transitioning from a rarer to a denser optical medium."
+  },
+  {
+    "q": "What net path difference equation governs destructive interference for normal incidence ($r=0$) in an ARC?",
+    "a": "$2\\mu_f t = (2m+1)\\frac{\\lambda}{2}$"
+  },
+  {
+    "q": "What is the required minimum optical thickness $t$ for an Anti-Reflecting Coating?",
+    "a": "$t = \\frac{\\lambda}{4\\mu_f}$ (quarter-wavelength physical thickness)."
+  },
+  {
+    "q": "What refractive index relationship must hold between air ($\\mu_a$), an anti-reflection film ($\\mu_f$), and glass ($\\mu_g$)?",
+    "a": "$\\mu_a < \\mu_f < \\mu_g$"
+  },
+  {
+    "q": "Why is Magnesium Fluoride ($MgF_2$, $\\mu=1.38$) preferred over Cryolite ($\\mu=1.36$) for Anti-Reflecting Coatings?",
+    "a": "Magnesium Fluoride provides superior film adhesion, is highly durable, scratch-proof, and completely insoluble in common solvents."
+  },
+  {
+    "q": "How is a wedge-shaped air film arranged to test the optical flatness of a glass surface?",
+    "a": "The test piece is placed in contact with a standard optically flat plate along one edge, while separated by a spacer at the opposite edge, forming a thin wedge of air."
+  },
+  {
+    "q": "What interference fringe pattern indicates that a surface is optically flat?",
+    "a": "Perfectly straight, parallel, and equally spaced interference fringes."
+  },
+  {
+    "q": "What do curved or irregular interference fringes reveal during an optical flatness test?",
+    "a": "They indicate surface irregularities (e.g., concave or convex surface defects) on the test piece."
+  },
+  {
+    "q": "What distinguishes unpolarized light from polarized light?",
+    "a": "Unpolarized light contains electric field vibrations in all possible directions perpendicular to wave propagation, whereas polarized light has vibrations restricted to a single direction or plane."
+  },
+  {
+    "q": "Define the plane of vibration of plane polarized light.",
+    "a": "The plane containing both the electric field vector vibrations and the direction of wave propagation."
+  },
+  {
+    "q": "How is the plane of polarization defined relative to the plane of vibration?",
+    "a": "The plane of polarization is perpendicular to the plane of vibration and contains no electric field vibrations."
+  },
+  {
+    "q": "What are the amplitude and phase conditions required to produce Circularly Polarized Light (CPL) from two perpendicular waves?",
+    "a": "The two mutually perpendicular waves must have equal amplitudes and a phase difference of $\\frac{\\pi}{2}$ (or path difference $\\frac{\\lambda}{4}$)."
+  },
+  {
+    "q": "What wave parameters lead to Elliptically Polarized Light (EPL)?",
+    "a": "Two mutually perpendicular waves of unequal amplitudes with a phase difference of $\\frac{\\pi}{2}$, or waves of any amplitude ratio with a phase difference other than $0$, $\\frac{\\pi}{2}$, or $\\pi$."
+  },
+  {
+    "q": "State Malus's Law mathematically.",
+    "a": "$I = I_0 \\cos^2\\theta$, where $I_0$ is the intensity transmitted by the polarizer, $I$ is the intensity transmitted by the analyzer, and $\\theta$ is the angle between their transmission axes."
+  },
+  {
+    "q": "According to Malus's law, if the incident electric vector amplitude on an analyzer is $E_0$, what is the transmitted amplitude $E$?",
+    "a": "$E = E_0 \\cos\\theta$ (the perpendicular component $E_0 \\sin\\theta$ is blocked)."
+  },
+  {
+    "q": "Through what angle $\\theta$ must an analyzer be rotated relative to a polarizer to reduce transmitted intensity to half ($50\\%$)?",
+    "a": "$\\theta = 45^\\circ$ or $135^\\circ$ (since $\\cos^2(45^\\circ) = 0.5$)."
+  },
+  {
+    "q": "Through what angle $\\theta$ must an analyzer be turned to reduce transmitted light intensity to $25\\%$ of its maximum value?",
+    "a": "$\\theta = 60^\\circ$ or $120^\\circ$ (since $\\cos^2(60^\\circ) = 0.25$)."
+  },
+  {
+    "q": "Through what angle $\\theta$ must an analyzer be rotated to reduce transmitted intensity to one-third ($1/3$) of maximum intensity?",
+    "a": "$\\theta = 54.74^\\circ$ or $125.26^\\circ$ (since $\\cos\\theta = \\pm\\frac{1}{\\sqrt{3}}$)."
+  },
+  {
+    "q": "What is the phenomenon of double refraction (birefringence)?",
+    "a": "The splitting of an unpolarized light beam into two distinct refracted rays (ordinary and extraordinary) when passing through anisotropic crystals like calcite or quartz."
+  },
+  {
+    "q": "How do the ordinary ray (O-ray) and extraordinary ray (E-ray) differ in polarization orientation?",
+    "a": "Both are plane polarized, but their planes of vibration are mutually perpendicular to each other."
+  },
+  {
+    "q": "What are the fundamental properties of the Ordinary Ray (O-ray) in double refraction?",
+    "a": "The O-ray obeys Snell's law of refraction, travels with equal velocity $v_o$ in all directions inside the crystal, forms a spherical wavefront, and experiences a constant refractive index $\\mu_o = \\frac{c}{v_o}$."
+  },
+  {
+    "q": "What are the key properties of the Extraordinary Ray (E-ray) in double refraction?",
+    "a": "The E-ray does not obey Snell's law, travels with different velocities $v_e$ in different directions, forms an ellipsoidal/elliptical wavefront, and has a directional refractive index $\\mu_e = \\frac{c}{v_e}$."
+  },
+  {
+    "q": "Describe the crystal face geometry of a Calcite ($CaCO_3$) crystal.",
+    "a": "Diagram showing calcite crystal geometry, face angles of 78 degrees and 102 degrees, and blunt corners Calcite is a rhombohedral crystal with 6 parallelogram faces, each containing acute angles of $78^\\circ$ and obtuse angles of $102^\\circ$."
+  },
+  {
+    "q": "What defines the blunt corners of a calcite crystal?",
+    "a": "Blunt corners are two diagonally opposite corners of the crystal where all three meeting face angles are obtuse ($102^\\circ$)."
+  },
+  {
+    "q": "What is the optic axis of a double-refracting crystal?",
+    "a": "An imaginary line passing through a blunt corner making equal angles with the three meeting edges (or any line parallel to it) along which light travels without undergoing double refraction."
+  },
+  {
+    "q": "What relationship holds between $v_o$ and $v_e$ along the optic axis of a uniaxial crystal?",
+    "a": "Along the optic axis, $v_o = v_e$; both wavefronts touch at the same point, so double refraction is absent."
+  },
+  {
+    "q": "What is a positive double-refracting crystal?",
+    "a": "Diagram showing spherical wavefront lying outside elliptical wavefront in a positive crystal A crystal in which $v_o > v_e$ (and $\\mu_o < \\mu_e$), meaning the spherical wavefront lies outside the elliptical wavefront (e.g., quartz, ice)."
+  },
+  {
+    "q": "What is a negative double-refracting crystal?",
+    "a": "Diagram showing elliptical wavefront lying outside spherical wavefront in a negative crystal A crystal in which $v_e > v_o$ (and $\\mu_e < \\mu_o$), meaning the elliptical wavefront lies outside the spherical wavefront (e.g., calcite, tourmaline)."
+  },
+  {
+    "q": "What happens when light is incident perpendicular to the optic axis of a double-refracting crystal?",
+    "a": "Both O-rays and E-rays travel in the same direction without angular separation, but move at different velocities."
+  },
+  {
+    "q": "What type of liquid crystal molecules are used in Liquid Crystal Displays (LCDs)?",
+    "a": "Nematic liquid crystals containing rod-like molecules."
+  },
+  {
+    "q": "How do nematic liquid crystal molecules behave in the absence of an electric field?",
+    "a": "The rod-like molecules naturally adopt a twisted configuration, rotating the polarization plane of linearly polarized light by $90^\\circ$."
+  },
+  {
+    "q": "What happens to liquid crystal molecules when an electric field (voltage) is applied across an LCD cell?",
+    "a": "The molecules untwist and align parallel to the electric field, preventing them from rotating the polarization plane of light."
+  },
+  {
+    "q": "How are polarizers arranged in a standard twisted nematic LCD assembly?",
+    "a": "Diagram showing LCD construction with liquid crystal sandwiched between two crossed polarizers P1 and P2 The liquid crystal cell is sandwiched between two crossed polarizers ($P_1$ and $P_2$) whose polarization axes are oriented at $90^\\circ$ to each other."
+  },
+  {
+    "q": "Why does an LCD segment appear bright in the OFF state (no applied voltage)?",
+    "a": "Working diagram of LCD showing light passage through twisted nematic state and reflection off mirror Light polarized by $P_1$ is rotated $90^\\circ$ by the twisted liquid crystal, allowing it to pass through crossed polarizer $P_2$, reflect off the rear mirror, and illuminate the segment."
+  },
+  {
+    "q": "Why does an LCD segment appear dark in the ON state (voltage applied)?",
+    "a": "The applied field untwists the molecules, so polarized light passes through unrotated and is blocked by the crossed polarizer $P_2$."
+  },
+  {
+    "q": "What type of radar polarization is utilized to suppress signal interference caused by rain?",
+    "a": "Circular polarization"
+  },
+  {
+    "q": "Which polarization type in radar systems is best suited for detecting metallic surfaces?",
+    "a": "Linear polarization"
+  },
+  {
+    "q": "What polarization scheme is used in navigation radars to inspect natural surfaces like rock or soil?",
+    "a": "Random polarization"
+  },
+  {
+    "q": "How are dual projectors configured in 3D movie projection systems using polarization?",
+    "a": "Diagram showing 3D movie projection with horizontal and vertical polarizers and 3D viewing glasses One projector filters light horizontally while the other filters light vertically, projecting two orthogonally polarized images onto the screen simultaneously."
+  },
+  {
+    "q": "How do 3D glasses allow viewers to perceive depth in a 3D movie theater?",
+    "a": "The left and right lenses contain polaroid filters aligned orthogonally (e.g., horizontal vs. vertical), ensuring each eye views only its corresponding perspective."
+  }
+]

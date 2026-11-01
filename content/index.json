@@ -1,0 +1,40 @@
+{
+  "subjects": [
+    {
+      "id": "maths",
+      "name": "Maths",
+      "emoji": "📐",
+      "description": "Numbers, but make them less scary. Grab the essentials and keep moving.",
+      "units": [
+        {
+          "id": "unit-1",
+          "title": "Differentiation (demo)",
+          "description": "Sample content only. Swap this for your actual syllabus notes.",
+          "badges": ["Must Do", "Easy Marks"]
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "emoji": "🪐",
+      "description": "Wave optics, thin films, and polarization in one compact revision pack.",
+      "units": [
+        {
+          "id": "unit-1",
+          "title": "Wave Optics",
+          "description": "Interference, thin films, anti-reflection coatings, and polarization.",
+          "badges": ["Exam Must Do", "High Yield"],
+          "panic": true
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "Electrical",
+      "emoji": "⚡",
+      "description": "Current mood: understand the circuit.",
+      "units": []
+    }
+  ]
+}
